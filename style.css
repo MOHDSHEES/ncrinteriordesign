@@ -30,7 +30,7 @@ h2 {
   font-weight: 700 !important;
 }
 .navbar {
-  position: fixed !important;
+  /* position: fixed !important; */
   width: 100% !important;
   z-index: 1000 !important;
 }
@@ -143,14 +143,34 @@ figcaption {
   padding-top: 12px;
   margin-bottom: 20px;
 }
-@media (max-width: 760px) {
+.main-h1 {
+  padding-top: 140px;
+  padding-left: 50px;
+}
+@media (max-width: 768px) {
   .item img {
     /* width: 272px; */
-    height: 260px;
+    height: 300px;
     object-fit: cover;
   }
   .about-text {
     padding: 20px;
+  }
+  .main {
+    text-align: center;
+    position: relative;
+  }
+  .main-h1 {
+    /* padding-top: 0px;
+    padding-left: 0px; */
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
