@@ -50,6 +50,7 @@ a.nav-link.active {
 .main {
   background-image: url("img/mainpic.jpg");
   height: 85vh;
+  min-height:500px;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgb(0 7 7 / 37%);
@@ -174,7 +175,7 @@ figcaption {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
   .item img {
     /* width: 272px; */
     height: 272px;
